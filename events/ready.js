@@ -6,7 +6,7 @@ module.exports = (bot) => {
   console.log(`Loaded commands!\n`);
   console.log(`~ Prefix: ${config.prefix}`);
   console.log(`~ ${bot.guilds.array().length} Guilds ${bot.channels.array().length} Channels ${bot.users.array().length} Users\n`)
-  bot.user.setGame(`Loading ${bot.user.username}... | littler.tk`, `https://twitch.com/twitch`)
+  bot.user.setGame(`Ugh... School...`)
   //bot.user.setPresence(`${bot.user.username}`, {type: 'LOADING'});
 
   // Whitelist
